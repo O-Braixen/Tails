@@ -1,128 +1,124 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Tails Bot</title>
-  
-<style>
-  
-    body { 
-			background-image: url(https://propulsionacademy.com/wp-content/uploads/2016/10/bg-thank-you-page-dark.jpg);
-			background-position: center center;
-			background-repeat: repeat;
-			background-attachment: fixed;
-	
-			background-color: #999;
-  
-}
-    html {
-          margin: 0;
-  padding: 0;
-  font-family: exo, sans-serif;
-  
-    }
-    body {
-  font-family: 'Titillium Web'; 
-}
-    img {
-        padding-top: 10%;
-    width: 50%;
-    height: auto;
-        float: center;
-}
-    @media only screen and (min-width: 400px) {
-    img {
-    width: 10%;
-}
-}
-    .button {
-    background-color: #7289DA; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 200%;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-    .button:hover {
-        font-size: 900%; 
-    }
-    .buttonclass {
-        padding-left: 90%;
-    }
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/commands.css" rel="stylesheet" />
+    <!--Blazor:{"sequence":0,"type":"server","prerenderId":"87b5ed067d0e481c8c0ec1e2cfe4e181","descriptor":"CfDJ8PoIJHRiF\u002BdNjYg7hQQ6JgmsFVac1wgvzcn7Ype/Z8FeBe9AW76kCktOfK4o8CFZwQ3EPgCFdpxeIIIM6QUibtW3FMbkLaPYw9H8G6ZnTAJfkyF6Nl9qaYHfKYpaR5OQR4jbbHY/PTmoZ96dQkKIt173T4bd7Kfr6Zp\u002BHs0XaoSuq6w70E\u002B6xc\u002BlV0hQggwh\u002BBFdzTmQz6KHxV0q/qUdn/0QNZ9xLblI8efL/11WSUkldB8vKAA9/TUWBPCyNq695hNeTtQO9Du83jyHzN6lJY4pu9D131J4cvw4KvbHsN7V39EgjnyNyUKUJr6PqI4YZr/dCOewM\u002BWfT8AHfsBEsJwJS6WQhSO\u002BvAMxbfg7t9dHWMuOQOye6GSt9/EFXOl\u002BBHZHhkdLqHCxLY7DL0OM5vH3OZQmPbxeOjiIAQ/Sl44A"}--><!--Blazor:{"prerenderId":"87b5ed067d0e481c8c0ec1e2cfe4e181"}-->
+    
+</head>
 
-    .button4 {border-radius: 20px;}
-    body {
-  font-family: 'Titillium Web'; 
-}
-div {
-  text-align: center;
-     font-family: 'Titillium Web'; 
-}
-button {
-  border: none;
-  padding: 15px 30px;
-  background-color: #B0BEC5;
-  font-size: 15px;
-  font-weight: bold;
-  color: #555;
-  margin: 8px;
-  outline: none;
-  border-radius: 5px;
-}
-but {
-  border: none;
-  
-  background-color: #B0BEC5;
-  font-size: 15px;
-  font-weight: bold;
-  color: #555;
-  margin: 8px;
-  outline: none;
-  border-radius: 5px;
-}
-    .grow {
-        background-color: #7289DA; 
-    border: none;
-    color: white;
-        font-size: 300%;
-    }
-.grow:hover {
-  transition: 0.5s;
-  transform: scale(1.2);
-}
-    p.title {
-        margin-top: 0;
-        font-size: 250%;
-        font-family: exo, sans-serif;
-        font-weight: bold;
-        
-    }
 
-  
-</style>
-</head>  
-<body>
-<center>
-<img src="https://top.gg/_next/image?url=https%3A%2F%2Fimages.discordapp.net%2Favatars%2F774019047503298630%2Fa3d359a848966a07f107a22a5b585467.png%3Fsize%3D128&w=128&q=75"/>
-<p class="title" style="color:white;">Tails Bot!</p>
-</center>
-  <div>
-    <a href="https://discordapp.com/oauth2/authorize?=&client_id=273887062086778880&scope=bot&permissions=372234248"><button class="grow">Botão 1
-      </button></a>
-    <a href="https://discord.gg/u6VZTJX"><button class="grow">Botão 2
-      </button></a>
-    <br><br><br>
-    <but class="grow">
-    <iframe src="https://discordapp.com/widget?id=246801731424354304&theme=dark" width="350" height="50" allowtransparency="true" frameborder="0"></iframe>
-    </but>
-	  
-	  
-<a href="https://top.gg/bot/774019047503298630">
-  <img src="https://top.gg/api/widget/774019047503298630.svg">
-</a>
-      </div>
+
+<body class="bg-zinc-900 w-full">
+<!--Blazor:{"sequence":1,"type":"server","prerenderId":"a048f0b42a374d6088da38236081481b","descriptor":"CfDJ8PoIJHRiF\u002BdNjYg7hQQ6JgkF0xOQFVzkJRxj1kNFDpTmCa1BBfRKzZgj0o0oPh/EOgpdMQOzRuXbNUn41zWLM9fOj6xw/U/dMz/gTCgP3jv7J0Jpeqz6aF1BurKz4Aidjzy5xaHXFO0TCOqhZrcfMVQTrv/1yYb9tU0x6LdQ9dq45vtxEUBS0mYV/WKH\u002B4/f95\u002BqwDNFxehGuIKqvRaVSRtYucbRz8B7Al9Hq6wdreSMWYlwLU0RWaGCMNk5n8aeDfmL\u002BIOcDAtDn7vQ1ceC2Buippy7CehX6dOW53y/9LdoRPdUVtIyMOEjaD6I6PTgAZIfdrM6Z2oyCPQT6Pxilk4or4p2EQW0p7M\u002BpHjJjEWK"}--><nav class="w-full fixed top-0 bg-zinc-900"><div class="max-w-7xl mx-auto px-2"><div class="relative flex items-center justify-between h-12"><div class="flex-1 flex items-center justify-start"><div class="flex-shrink-0 flex items-center"><img class="sm:block hidden h-8 w-auto" src="_images/bot-avatar.png" alt="Workflow">
+                    <a href="/" class="md:block hidden bg-gray-900 text-white px-3 py-2 rounded-md text-lg font-medium" aria-current="page">
+                        NadekoBot
+                    </a></div>
+                <div class="block w-full"><div class="flex space-x-1 md:justify-start justify-center"><a href="https://invite.nadeko.bot" target="_blank" class="topbar-link">
+                            Invite
+                        </a>
+
+                        <a href="https://discord.nadeko.bot" target="_blank" class="topbar-link">
+                            Discord
+                        </a>
+
+                        <a href="/commands" class="topbar-link">
+                            Commands
+                        </a>
+
+                        <a href="/suggest" target="_blank" class="topbar-link">
+                            Suggest
+                        </a></div></div></div></div></div></nav>
+
+
+<main class="text-center mt-20 mx-auto max-w-7xl px-4"><div class="inline-block h-full align-middle"><img src="/_images/nadeko-avatar.png" class="rounded-full h-40 w-40 top-0" alt="Nadeko Avatar"></div>
+        <div class="inline-block text-left h-full align-middle sm:mx-10"><h1 class="text-4xl tracking-tight font-extrabold text-white"><span class="block">One discord bot</span>
+                <span class="block text-gray-500">to replace a ton</span></h1>
+            <div class="mt-5 w-full"><a href="https://invite.nadeko.bot" target="_blank" class="inline-block items-center justify-center px-6 py-2
+                            border border-transparent text-base font-medium 
+                            rounded-md text-white bg-blue-500 hover:bg-blue-700 md:text-lg">
+                    Invite
+                </a>
+                <a href="/commands" class="inline-flex items-center justify-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-gray-100 md:text-lg">
+                    Commands
+                </a></div></div></main>
+
+    <div><div class="feature-item"><img src="/_images/feature-modules.png" class="feature-section feature-section-image" alt="Picture of .cmds command output">
+
+            <div class="feature-section feature-section-text text-left"><div class="title">A command for everything.</div>
+                <div class="desc">Moderation, games, leveling, utility.
+                    Protect your server from raids, set up custom word triggers,
+                    roll dice, look up anime and check cryptocurrency charts.
+                    It'a all built in.
+                </div></div></div>
+        <div class="feature-item"><div class="feature-section feature-section-text text-right"><div class="title">Xp system</div>
+                <div class="desc"> XP / leveling system with leaderboards and clubs.
+                    See how you fare against other people in activity, and even
+                    assign roles to users who level up! Level up messages are
+                    opt-in, so don't worry about spam!</div></div>
+
+            <img src="/_images/feature-xp.png" class="feature-section feature-section-image" alt=".xp command card"></div>
+        <div class="feature-item"><img src="/_images/feature-currency.png" class="feature-section feature-section-image" alt="Picture of .lb command output">
+
+            <div class="feature-section feature-section-text text-left"><div class="title">Economy</div>
+                <div class="desc">
+                    Nadeko has a unique non inflated economy with the primary
+                    currency called Nadeko Flowers🌸.
+                    Claim waifus, participate in events, buy shop items and gamble
+                    by rolling dice,
+                    playing slots, and flipping coins!
+                </div></div></div>
+        <div class="feature-item"><div class="feature-section feature-section-text text-right"><div class="title">Open Source</div>
+                <div class="desc">Licensed under the permissive MIT license.
+                    Download, fork, clone, modify, sell high, buy low, resell,
+                    smuggle, lose, find and then make an MR on gitlab.
+                </div></div>
+            <img src="/_images/feature-imadethis.png" class="feature-section feature-section-image" alt="I made this meme"></div>
+        <div class="feature-item"><img src="/_images/feature-donate.jpg" class="feature-section feature-section-image" alt="Nadeko sitting with money flying around her">
+
+            <div class="feature-section feature-section-text text-left"><div class="title">Donate to us</div>
+                <div class="desc">
+                    As all features of nadeko are completely free and open source,
+                    we rely
+                    on donations to keep the project alive. Donate to help pay
+                    server costs,
+                    support the developer and also get some neat rewards on the
+                    official @Nadeko instance in return!
+                    <a href="https://patreon.com/join/nadekobot" class="text-white rounded-md py-2 px-10
+                        my-5
+                        block w-fit
+                        bg-gradient-to-r from-red-500 to-amber-600
+                         font-mono">Patreon</a></div></div></div></div>
+    <footer class="grid grid-cols-4 pt-32 pb-10
+    m-auto justify-items-center
+     w-full 2xl:w-1/2"><div class="footer-segment grid"><div class="title">Nadeko</div>
+            <div class="items"><a href="https://invite.nadeko.bot" target="_blank" class="item">Invite</a>
+                <a href="/commands" class="item">Commands</a>
+                <a href="/suggest" class="item">Suggestions</a>
+                <a href="https://discord.nadeko.bot" target="_blank" class="item">Ask for Help</a>
+                <a href="https://patreon.com/join/nadekobot" target="_blank" class="item">Donate ❤️</a></div></div>
+        <div class="footer-segment"><div class="title">Selfhosting</div>
+            <div class="items"><a href="https://nadekobot.readthedocs.io" target="_blank" class="item">Docs and Guides</a>
+                <a href="https://gitlab.com/kwoth/nadekobot" target="_blank" class="item">Source Code</a>
+                <a href="https://gitlab.com/Kwoth/nadekobot/-/releases" target="_blank" class="item">Releases / Builds</a>
+                <a href="https://gitlab.com/Kwoth/nadekobot/-/blob/v4/CHANGELOG.md" target="_blank" class="item">Changelog</a></div></div>
+        <div class="footer-segment"><div class="title">Features</div>
+            <div class="items"><a href="https://nadekobot.readthedocs.io/en/latest/permissions-system/" target="_blank" class="item">Permissions</a>
+                <a href="https://nadekobot.readthedocs.io/en/latest/custom-reactions/" target="_blank" class="item">Expressions</a>
+                <a href="https://nadekobot.readthedocs.io/en/latest/config-guide/" target="_blank" class="item">Config</a>
+                <a href="https://nadekobot.readthedocs.io/en/latest/placeholders/" target="_blank" class="item">Placeholders</a></div></div>
+        <div class="footer-segment"><div class="title">Utilities</div>
+            <div class="items"><a href="https://eb.nadeko.bot" class="item" target="_blank">Embed Builder</a></div></div></footer>
+<div class="copyright w-full text-center text-gray-400 font-semibold
+        text-sm sm:text-base">
+    ©️
+    Modificado por Braixen
+    2022
+</div><!--Blazor:{"prerenderId":"a048f0b42a374d6088da38236081481b"}-->
 </body>
+<script src="_framework/blazor.server.js"></script>
 </html>
+
